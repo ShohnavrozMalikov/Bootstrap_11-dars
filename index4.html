@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main4.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-6">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mymodal">
+                Open Modal
+            </button>
+            <div class="modal fade" id="mymodal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1>Add Person</h1><span class="close" data-dismiss="modal">&times;</span>
+                        </div>
+                        <div class="modal-body">
+                            <div class="card">
+                                <div class="card-body">
+                                    <from action="#" method="get">
+                                        <div class="form-group">
+                                            <label for="login">First Name</label>
+                                            <input type="text" id="login" placeholder="First Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Last Name</label>
+                                            <input type="password" id="password" placeholder="Last Name" class="form-control">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="dist">Gender</label>
+                                            <textarea id="dist" class="form-control" placeholder="Male"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="dist">Address</label>
+                                            <textarea id="dist" class="form-control" placeholder="Address"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="dist">Date of Birth</label>
+                                            <input id="dist" class="form-control" placeholder="yyyy-mm-dd"></input>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary    ">Save</button>
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                                        </div>
+                                    </from>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
